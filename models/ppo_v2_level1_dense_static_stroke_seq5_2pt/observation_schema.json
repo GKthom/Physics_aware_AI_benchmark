@@ -1,0 +1,24 @@
+{
+  "level_id": 1,
+  "observation_size": 442,
+  "action_size": 5,
+  "action_layout": {
+    "index_0": "draw gate: value > 0 draws; value <= 0 waits",
+    "remaining_values": "normalized stroke coordinates in x/y order"
+  },
+  "max_objects": 5,
+  "max_static_segments": 10,
+  "max_goals": 4,
+  "max_agent_segments": 4,
+  "max_joints": 1,
+  "effective_stroke_body": "static",
+  "decision_frames": 5,
+  "stroke_penalty": 0.25,
+  "global_features": 16,
+  "features_per_object": 24,
+  "features_per_static_segment": 13,
+  "features_per_agent_segment": 16,
+  "features_per_joint": 12,
+  "features_per_goal": 25,
+  "note": "Padded slots include a presence mask as their first feature."
+}

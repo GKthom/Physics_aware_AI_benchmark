@@ -1,0 +1,5 @@
+model_path,level_id,reward_mode,episodes,mean_reward,std_reward,mean_steps,success_rate,mean_final_goal_distance
+models_v2/ppo_brainiton_v2_dense_level1_final,1,dense,20,-86.43974869948059,1.4210854715202004e-14,80.0,0.0,551.3146863394852
+models_v2/ppo_brainiton_v2_sparse_level1_final,1,sparse,20,-80.0,0.0,80.0,0.0,551.3146863394852
+models_v2/ppo_brainiton_v2_dense_level1_final,2,dense,20,-84.40963143771114,0.0,80.0,0.0,645.4135186065357
+models_v2/ppo_brainiton_v2_sparse_level1_final,2,sparse,20,-80.0,0.0,80.0,0.0,645.4135186065357
